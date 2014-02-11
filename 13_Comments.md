@@ -25,7 +25,7 @@ $ curl -H 'Authorization: Bearer <your access token>' \
     "created_at": "2014-01-24T16:53:08Z",
     "depth": 2,
     "id": 36524,
-    "upvotes_count": 0,
+    "vote_count": 0,
     "url": "https://news.layervault.com/comments/36524",
     "user_display_name": "Matt P.",
     "user_id": 4181
@@ -61,7 +61,7 @@ $ curl -X POST \
     "created_at": "2014-01-24T16:53:08Z",
     "depth": 3,
     "id": 9001,
-    "upvotes_count": 0,
+    "vote_count": 0,
     "url": "https://news.layervault.com/comments/9001",
     "user_display_name": "Kelly S.",
     "user_id": 1
@@ -71,7 +71,7 @@ $ curl -X POST \
 
 #### Upvoting a Comment
 
-This call will upvote a comment on behalf of the current user. It returns the comment that was upvoted, with an updated `upvotes_count`.
+This call will upvote a comment on behalf of the current user. It returns the comment that was upvoted, with an updated `vote_count`.
 
  Definition
 

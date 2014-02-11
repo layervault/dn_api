@@ -134,7 +134,7 @@ $ curl -X POST \
     "created_at": "2014-01-24T16:53:08Z",
     "depth": 0,
     "id": 9000,
-    "upvotes_count": 0,
+    "vote_count": 0,
     "url": "https://news.layervault.com/comments/9000",
     "user_display_name": "Kelly S.",
     "user_id": 1
