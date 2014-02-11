@@ -10,7 +10,7 @@ This call returns information for a story.
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/stories/:id'
+    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/stories/:id'
 
  Example Response
 
@@ -42,7 +42,7 @@ If not specified, the default page will be `1`.
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/stories'
+    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/stories'
 
  Example Response
 
@@ -76,7 +76,7 @@ Abuses of upvoting will get your app banned.
 
  Example Request
 
-    $ curl -X POST -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/stories/13627/upvote'
+    $ curl -X POST -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/stories/13627/upvote'
 
  Example Response
 

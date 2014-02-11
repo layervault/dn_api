@@ -10,7 +10,7 @@ This call returns information for a comment.
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/comments/36524'
+    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/comments/36524'
 
  Example Response
 
@@ -41,7 +41,7 @@ the comment that was just created, or an error code.
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/comments/36524/reply'
+    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/comments/36524/reply'
 
  Example Response
 
@@ -71,7 +71,7 @@ This call will upvote a comment on behalf of the current user. It returns the co
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api.news.layervault.com/api/v1/comments/36524/upvote'
+    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/comments/36524/upvote'
 
  Example Response
 

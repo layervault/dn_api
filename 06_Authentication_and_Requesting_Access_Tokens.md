@@ -3,7 +3,7 @@
 All API requests are required to be authenticated via an oAuth 2 access token. It's easy to request a token via the command line to get a feel for how things work:
 
 ```shell
-curl -i https://api.news.layervault.com/oauth/token \
+curl -i https://api-news.layervault.com/oauth/token \
   -F grant_type="password" \
   -F username="<your Designer News username>" \
   -F password="<your Designre News password>" \
