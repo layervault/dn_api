@@ -105,3 +105,39 @@ $ curl -X POST -H 'Authorization: Bearer <your access token>' \
   }
 }
 ```
+
+#### Commenting on a Story
+
+This call will create a new comment on behalf of the user and attach it to the story specified. It returns
+the comment that was just created, or an error code.
+
+ Definition
+
+    POST /api/v1/stories/:id/reply
+
+ Example Request
+
+```shell
+$ curl -X POST \
+  -d 'comment[body]=Kicking off the conversation.' \
+  -H 'Authorization: Bearer <your access token>' \
+  'https://api-news.layervault.com/api/v1/stories/36524/reply'
+```
+
+ Example Response
+
+```json
+{
+  "comment": {
+    "body": "Kicking off the conversation.",
+    "comments": [],
+    "created_at": "2014-01-24T16:53:08Z",
+    "depth": 0,
+    "id": 9000,
+    "upvotes_count": 0,
+    "url": "https://news.layervault.com/comments/9000",
+    "user_display_name": "Kelly S.",
+    "user_id": 1
+  }
+}
+```

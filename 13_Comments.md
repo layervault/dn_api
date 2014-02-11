@@ -63,7 +63,7 @@ $ curl -X POST \
     "id": 9001,
     "upvotes_count": 0,
     "url": "https://news.layervault.com/comments/9001",
-    "user_display_name": "Kelly s.",
+    "user_display_name": "Kelly S.",
     "user_id": 1
   }
 }
