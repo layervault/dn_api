@@ -11,8 +11,8 @@ This call returns the user information for which the Client is acting on behalf 
  Example Request
 
 ```shell
-  $ curl -H 'Authorization: Bearer <your access token>' \
-    'https://api-news.layervault.com/api/v1/me'
+$ curl -H 'Authorization: Bearer <your access token>' \
+  'https://api-news.layervault.com/api/v1/me'
 ```
 
  Example Response
