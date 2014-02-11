@@ -1,4 +1,4 @@
-### Configuring A Web Application as a LayerVault API client
+### Configuring A Web Application as a Designer News API client
 
 First of all, make sure that your redirect URI is correctly specified.
 
