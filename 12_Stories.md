@@ -36,7 +36,7 @@ $ curl -H 'Authorization: Bearer <your access token>' \
 
 #### Retrieving the front page
 
-This call will returns a list of stories on the set page. **Note:** Page numbering starts at `1`.
+This call returns a list of stories on the set page. **Note:** Page numbering starts at `1`.
 If not specified, the default page will be `1`.
 
  Definition
@@ -66,7 +66,46 @@ $ curl -H 'Authorization: Bearer <your access token>' \
       "title": "A logo should tell a story.",
       "url": "http://localhost:3000/click/stories/13627",
       "vote_count": 11
-    }
+    },
+    ...
+  ]
+}
+```
+
+#### Retrieving recent stories
+
+This call returns the content of the most [Designer News recent stories](https://news.layervault.com/new), offset
+by a `page` number. **Note:** Page numbering starts at `1`. If not specified, the default page will be `1`.
+
+ Definition
+
+    GET /api/v1/stories/recent
+
+ Example Request
+
+```shell
+$ curl -H 'Authorization: Bearer <your access token>' \
+  'https://api-news.layervault.com/api/v1/stories/recent'
+```
+
+ Example Response
+
+```json
+{
+  "stories": [
+    {
+      "comment": "",
+      "comments": [
+          ...
+      ],
+      "created_at": "2014-01-24T17:15:19Z",
+      "id": 13627,
+      "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
+      "title": "A logo should tell a story.",
+      "url": "http://localhost:3000/click/stories/13627",
+      "vote_count": 11
+    },
+    ...
   ]
 }
 ```
