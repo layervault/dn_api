@@ -41,7 +41,12 @@ the comment that was just created, or an error code.
 
  Example Request
 
-    $ curl -H 'Authorization: Bearer <your access token>' 'https://api-news.layervault.com/api/v1/comments/36524/reply'
+```shell
+  $ curl -X POST \
+    -d 'comment[body]=I agree. Purples are sweet.' \
+    -H 'Authorization: Bearer <your access token>' \
+    'https://api-news.layervault.com/api/v1/comments/36524/reply'
+```
 
  Example Response
 
