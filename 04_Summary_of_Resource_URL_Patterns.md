@@ -6,6 +6,6 @@
     /api/v1/stories/:id/upvote
     /api/v1/stories
     /api/v1/stories/:id
-    /api/v1/comments/:id/upvote(.:format
+    /api/v1/comments/:id/upvote
     /api/v1/comments/:id/reply
     /api/v1/comments/:id
