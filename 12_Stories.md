@@ -180,3 +180,41 @@ $ curl -X POST \
   }
 }
 ```
+
+#### Searching for Stories
+
+This call will [search through Designer News](https://news.layervault.com/search) stories and return any matching
+stories. Searches are specified with a `query` parameter
+
+ Definition
+
+    GET /api/v1/stories/search
+
+ Example Request
+
+```shell
+$ curl -H 'Authorization: Bearer <your access token>' \
+  'https://api-news.layervault.com/api/v1/stories/search?query=Kelly%20Sutton'
+```
+
+ Example Response
+
+```json
+{
+  "stories": [
+    {
+      "comment": "",
+      "comments": [
+          ...
+      ],
+      "created_at": "2014-01-24T17:15:19Z",
+      "id": 13627,
+      "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
+      "title": "Kelly Sutton is pretty cool, I guess.",
+      "url": "http://localhost:3000/click/stories/13627",
+      "vote_count": 11
+    },
+    ...
+  ]
+}
+```
