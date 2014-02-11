@@ -1,2 +1,2 @@
 ### API Endpoint
-https://news.layervault.com/api/v1
+https://api-news.layervault.com/api/v1

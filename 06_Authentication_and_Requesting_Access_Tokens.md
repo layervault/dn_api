@@ -6,7 +6,7 @@ All API requests are required to be authenticated via an oAuth 2 access token. I
 curl -i https://api-news.layervault.com/oauth/token \
   -F grant_type="password" \
   -F username="<your Designer News username>" \
-  -F password="<your Designre News password>" \
+  -F password="<your Designer News password>" \
   -F client_id="<client_id_goes_here>" \
   -F client_secret="<client_secret_goes_here>"
 ```
