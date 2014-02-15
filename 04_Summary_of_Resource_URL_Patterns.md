@@ -10,3 +10,6 @@
     /api/v1/comments/:id/upvote
     /api/v1/comments/:id/reply
     /api/v1/comments/:id
+    /api/v1/motd/upvote
+    /api/v1/motd/downvote
+    /api/v1/motd
