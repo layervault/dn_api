@@ -35,7 +35,7 @@ This call returns information about the requested user.
 
 Definition
 
-    GET /api/v2/users/:id
+    GET /api/v1/users/:id
 
 Example Request
 
