@@ -11,8 +11,7 @@ This call returns information for a comment.
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/comments/36524'
+$ curl 'https://api-news.layervault.com/api/v1/comments/36524?client_id=abc123'
 ```
 
  Example Response

@@ -11,8 +11,7 @@ This call returns information for a story.
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/stories/:id'
+$ curl 'https://api-news.layervault.com/api/v1/stories/:id?client_id=abc123'
 ```
 
  Example Response
@@ -46,8 +45,7 @@ If not specified, the default page will be `1`.
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/stories'
+$ curl 'https://api-news.layervault.com/api/v1/stories?client_id=abc123'
 ```
 
  Example Response
@@ -84,8 +82,7 @@ by a `page` number. **Note:** Page numbering starts at `1`. If not specified, th
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/stories/recent'
+$ curl 'https://api-news.layervault.com/api/v1/stories/recent?client_id=abc123'
 ```
 
  Example Response
@@ -193,8 +190,7 @@ stories. Searches are specified with a `query` parameter
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/stories/search?query=Kelly%20Sutton'
+$ curl 'https://api-news.layervault.com/api/v1/stories/search?query=Kelly%20Sutton&client_id=abc123'
 ```
 
  Example Response

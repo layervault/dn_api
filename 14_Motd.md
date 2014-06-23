@@ -11,8 +11,7 @@ This call returns information for the current MOTD (message of the day).
  Example Request
 
 ```shell
-$ curl -H 'Authorization: Bearer <your access token>' \
-  'https://api-news.layervault.com/api/v1/motd'
+$ curl 'https://api-news.layervault.com/api/v1/motd?client_id=abc123'
 ```
 
  Example Response
