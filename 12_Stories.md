@@ -28,7 +28,8 @@ $ curl 'https://api-news.layervault.com/api/v1/stories/:id?client_id=abc123'
     "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
     "title": "A logo should tell a story.",
     "url": "http://localhost:3000/click/stories/13627",
-    "vote_count": 11
+    "vote_count": 11,
+    "sponsored": false
   }
 }
 ```
@@ -63,7 +64,8 @@ $ curl 'https://api-news.layervault.com/api/v1/stories?client_id=abc123'
       "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
       "title": "A logo should tell a story.",
       "url": "http://localhost:3000/click/stories/13627",
-      "vote_count": 11
+      "vote_count": 11,
+      "sponsored": false
     },
     ...
   ]
@@ -100,7 +102,8 @@ $ curl 'https://api-news.layervault.com/api/v1/stories/recent?client_id=abc123'
       "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
       "title": "A logo should tell a story.",
       "url": "http://localhost:3000/click/stories/13627",
-      "vote_count": 11
+      "vote_count": 11,
+      "sponsored": false
     },
     ...
   ]
@@ -137,7 +140,8 @@ $ curl -X POST -H 'Authorization: Bearer <your access token>' \
     "site_url": "https://news.layervault.com/stories/13627-a-logo-should-tell-a-story",
     "title": "A logo should tell a story.",
     "url": "https://news.layervault.com/click/stories/13627",
-    "vote_count": 12
+    "vote_count": 12,
+    "sponsored": false
   }
 }
 ```
@@ -208,7 +212,8 @@ $ curl 'https://api-news.layervault.com/api/v1/stories/search?query=Kelly%20Sutt
       "site_url": "http://localhost:3000/stories/13627-a-logo-should-tell-a-story",
       "title": "Kelly Sutton is pretty cool, I guess.",
       "url": "http://localhost:3000/click/stories/13627",
-      "vote_count": 11
+      "vote_count": 11,
+      "sponsored": false
     },
     ...
   ]
